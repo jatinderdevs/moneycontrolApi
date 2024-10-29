@@ -1,0 +1,28 @@
+{
+  "name": "moneymanagementbackend",
+  "version": "1.0.0",
+  "description": "money manaagement app backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "jatinder singh",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.3",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.2",
+    "mongoose": "^6.2.6",
+    "nodemon": "^2.0.15",
+    "winston": "^3.7.2",
+    "winston-mongodb": "^5.0.7"
+  }
+}
